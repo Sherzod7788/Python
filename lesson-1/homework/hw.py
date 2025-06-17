@@ -1,0 +1,59 @@
+1 Given a side of square. Find its perimeter and area.
+2 Given diameter of circle. Find its length.
+3 Given two numbers a and b. Find their mean.
+4 Given two numbers a and b. Find their sum, product and square of each number.
+
+
+
+
+side = float(input("Enter the side of the square: "))
+
+perimeter = 4 * side
+area = side ** 2
+
+print("Perimeter of the square:", perimeter)
+print("Area of the square:", area)
+
+
+
+
+
+import math
+
+diameter = float(input("Enter the diameter of the circle: "))
+
+circumference = math.pi * diameter
+
+print("Circumference (Length) of the circle is:", circumference)
+
+
+
+
+
+
+a = float(input("enter a"))
+b = float(input("enter b"))
+
+mean = (a + b) / 2
+
+print("a and b find the mean", mean)
+
+
+
+
+
+
+a = float(input('enter number a'))
+b = float(input('enter number b'))
+
+sum_result = a + b
+
+product = a * b
+
+square_a = a ** 2
+square_b = b ** 2
+
+print('sum', sum_result)
+print('product', product)
+print('square of a', square_a)
+print('square of b', square_b)  
